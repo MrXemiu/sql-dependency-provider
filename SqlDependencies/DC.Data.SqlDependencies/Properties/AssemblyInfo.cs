@@ -16,8 +16,8 @@ using System.Security;
 [assembly: CLSCompliant(true)]
 [assembly: ComVisible(false)]
 
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.0.1")]
+[assembly: AssemblyFileVersion("1.0.0.1")]
 
 [assembly: Guid("4D08061D-8636-424B-BF15-F18E1391727D")]
 [assembly: AllowPartiallyTrustedCallers]

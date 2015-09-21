@@ -5,12 +5,22 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.Data.SqlDependencies", "DC.Data.SqlDependencies\DC.Data.SqlDependencies.csproj", "{874D45A4-436E-42A5-BD2B-69EDEC6BF902}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C56D027D-E143-46BE-8CDF-F03D39F31C33}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Miscellaneous", "0. Miscellaneous", "{C56D027D-E143-46BE-8CDF-F03D39F31C33}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitattributes = ..\.gitattributes
 		..\.gitignore = ..\.gitignore
 		..\LICENSE = ..\LICENSE
 		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Project", "1. Project", "{E5F76DF4-2F79-4979-84B6-0FF25B90A0B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. NuGet", "2. NuGet", "{0A86D0D3-1B6F-4104-827A-5130F0A1933F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{52EE4473-9133-4907-B0CC-0BD96E709646}"
+	ProjectSection(SolutionItems) = preProject
+		..\Nuget\DC.Data.SqlDependencies.1.0.0.1.nupkg = ..\Nuget\DC.Data.SqlDependencies.1.0.0.1.nupkg
+		..\Nuget\DC.Data.SqlDependencies.1.0.0.nupkg = ..\Nuget\DC.Data.SqlDependencies.1.0.0.nupkg
 	EndProjectSection
 EndProject
 Global
@@ -26,5 +36,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{874D45A4-436E-42A5-BD2B-69EDEC6BF902} = {E5F76DF4-2F79-4979-84B6-0FF25B90A0B5}
+		{52EE4473-9133-4907-B0CC-0BD96E709646} = {C56D027D-E143-46BE-8CDF-F03D39F31C33}
 	EndGlobalSection
 EndGlobal
