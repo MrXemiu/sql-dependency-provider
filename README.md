@@ -7,8 +7,8 @@ Features:
 ---------
 1. Support for Azure web environment, which doesn't support enablement of Sql Service Broker for notifications 
 2. Support for IIS/IIS Express hosted applications
-3. Simple unified interface and seemless implementation fallbacks
-4. Implementes .NET SqlDependency framework based implementation on supported database servers 
+3. Simple unified interface and seamless implementation fallbacks
+4. Implements .NET SqlDependency framework based implementation on supported database servers 
 5. Implements Polling model on database servers which do not support service broker enablement
 6. No need to subscribe/unsubscribe as in .NET SqlDependency implementation
 7. Customizable options 
